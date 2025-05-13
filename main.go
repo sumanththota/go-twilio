@@ -20,7 +20,7 @@ func main(){
 	params := &api.CreateMessageParams{}
 	params.SetBody("My first Twilio message Using API")
 	params.SetFrom("+1")
-	params.SetTo("+17166179181")
+	params.SetTo("+1")
 	
 	resp, err := client.Api.CreateMessage(params)
 	if err != nil{
